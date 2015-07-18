@@ -1,0 +1,45 @@
+{
+  "name": "app-path-cli",
+  "version": "0.0.0",
+  "description": "Get the path to an app (OS X)",
+  "license": "MIT",
+  "repository": "sindresorhus/app-path-cli",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bin": {
+    "app-path": "cli.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "osx",
+    "applescript",
+    "app",
+    "application",
+    "path",
+    "dir",
+    "directory",
+    "bundle",
+    "location"
+  ],
+  "dependencies": {
+    "app-path": "^1.0.2",
+    "meow": "^3.3.0",
+    "supports-color": "^2.0.0"
+  },
+  "devDependencies": {
+    "ava": "0.0.4"
+  }
+}
