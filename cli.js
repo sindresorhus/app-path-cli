@@ -15,7 +15,7 @@ const cli = meow(`
 `);
 
 if (cli.input.length === 0) {
-	console.error('Please supply an app name');
+	console.error('Specify an app name');
 	process.exit(1);
 }
 

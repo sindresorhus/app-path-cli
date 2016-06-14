@@ -2,5 +2,5 @@ import test from 'ava';
 import execa from 'execa';
 
 test(async t => {
-	t.is((await execa('./cli.js', ['Safari'])).stdout, '/Applications/Safari.app');
+	t.is(await execa.stdout('./cli.js', ['Safari']), '/Applications/Safari.app');
 });
