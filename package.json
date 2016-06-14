@@ -1,7 +1,7 @@
 {
   "name": "app-path-cli",
   "version": "2.0.0",
-  "description": "Get the path to an app (OS X)",
+  "description": "Get the path to an app (macOS)",
   "license": "MIT",
   "repository": "sindresorhus/app-path-cli",
   "author": {
@@ -24,6 +24,7 @@
   "keywords": [
     "cli-app",
     "cli",
+    "macos",
     "osx",
     "applescript",
     "app",
