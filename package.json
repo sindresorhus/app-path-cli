@@ -25,12 +25,10 @@
     "cli-app",
     "cli",
     "macos",
-    "osx",
     "applescript",
     "app",
     "application",
     "path",
-    "dir",
     "directory",
     "bundle",
     "location"
@@ -40,11 +38,8 @@
     "meow": "^3.7.0"
   },
   "devDependencies": {
-    "ava": "*",
+    "ava": "^0.25.0",
     "execa": "^0.4.0",
-    "xo": "*"
-  },
-  "xo": {
-    "esnext": true
+    "xo": "^0.23.0"
   }
 }
