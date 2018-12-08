@@ -13,7 +13,7 @@
     "app-path": "cli.js"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=8"
   },
   "scripts": {
     "test": "xo && ava"
@@ -25,26 +25,21 @@
     "cli-app",
     "cli",
     "macos",
-    "osx",
     "applescript",
     "app",
     "application",
     "path",
-    "dir",
     "directory",
     "bundle",
     "location"
   ],
   "dependencies": {
-    "app-path": "^2.0.0",
-    "meow": "^3.7.0"
+    "app-path": "^3.0.0",
+    "meow": "^5.0.0"
   },
   "devDependencies": {
-    "ava": "*",
-    "execa": "^0.4.0",
-    "xo": "*"
-  },
-  "xo": {
-    "esnext": true
+    "ava": "^0.25.0",
+    "execa": "^1.0.0",
+    "xo": "^0.23.0"
   }
 }
