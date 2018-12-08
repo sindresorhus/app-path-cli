@@ -19,4 +19,6 @@ if (cli.input.length === 0) {
 	process.exit(1);
 }
 
-appPath(cli.input[0]).then(console.log);
+(async () => {
+	console.log(await appPath(cli.input[0]));
+})();
