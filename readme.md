@@ -1,4 +1,4 @@
-# app-path-cli [![Build Status](https://travis-ci.org/sindresorhus/app-path-cli.svg?branch=master)](https://travis-ci.org/sindresorhus/app-path-cli)
+# app-path-cli
 
 > Get the path to an app (macOS)
 
