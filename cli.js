@@ -1,7 +1,6 @@
 #!/usr/bin/env node
-'use strict';
-const meow = require('meow');
-const appPath = require('app-path');
+import meow from 'meow';
+import appPath from 'app-path';
 
 const cli = meow(`
 	Usage

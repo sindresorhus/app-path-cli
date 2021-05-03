@@ -4,16 +4,18 @@
 	"description": "Get the path to an app (macOS)",
 	"license": "MIT",
 	"repository": "sindresorhus/app-path-cli",
+	"funding": "https://github.com/sponsors/sindresorhus",
 	"author": {
 		"name": "Sindre Sorhus",
 		"email": "sindresorhus@gmail.com",
-		"url": "sindresorhus.com"
+		"url": "https://sindresorhus.com"
 	},
+	"type": "module",
 	"bin": {
-		"app-path": "cli.js"
+		"app-path": "./cli.js"
 	},
 	"engines": {
-		"node": ">=8"
+		"node": ">=12"
 	},
 	"scripts": {
 		"test": "xo && ava"
@@ -34,12 +36,12 @@
 		"location"
 	],
 	"dependencies": {
-		"app-path": "^3.0.0",
-		"meow": "^5.0.0"
+		"app-path": "^4.0.0",
+		"meow": "^9.0.0"
 	},
 	"devDependencies": {
-		"ava": "^0.25.0",
-		"execa": "^1.0.0",
-		"xo": "^0.23.0"
+		"ava": "^3.15.0",
+		"execa": "^5.0.0",
+		"xo": "^0.39.1"
 	}
 }

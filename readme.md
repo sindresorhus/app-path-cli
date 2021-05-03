@@ -2,13 +2,11 @@
 
 > Get the path to an app (macOS)
 
-
 ## Install
 
 ```
 $ npm install --global app-path-cli
 ```
-
 
 ## Usage
 
@@ -25,12 +23,6 @@ $ app-path --help
     /Applications/Safari.app
 ```
 
-
 ## Related
 
 - [app-path](https://github.com/sindresorhus/app-path) - API for this module
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)
